@@ -1,0 +1,32 @@
+{
+  "name": "zomato-scraper",
+  "version": "1.0.0",
+  "description": "Scrape Zomato resturant information",
+  "main": "dist/scrape.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc",
+    "run": "node dist/scrape.js",
+    "start": "yarn build && yarn run",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "./node_modules/.bin/tsc -w"
+  },
+  "devDependencies": {
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ScreamingHawk/zomato-scraper.git"
+  },
+  "keywords": [
+    "food",
+    "web",
+    "scrape"
+  ],
+  "author": "Michael Standen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ScreamingHawk/zomato-scraper/issues"
+  },
+  "homepage": "https://github.com/ScreamingHawk/zomato-scraper#readme"
+}
