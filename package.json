@@ -5,12 +5,16 @@
   "main": "dist/scrape.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc",
-    "run": "node dist/scrape.js",
-    "start": "yarn build && yarn run",
+    "execute": "node dist/scrape.js",
+    "start": "yarn build && yarn execute",
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "./node_modules/.bin/tsc -w"
   },
   "devDependencies": {
+    "@types/cheerio": "^0.22.13",
+    "@types/node": "^12.7.2",
+    "@types/request": "^2.48.2",
+    "@types/winston": "^2.4.4",
     "tslint": "^5.18.0",
     "typescript": "^3.5.3"
   },
@@ -28,5 +32,10 @@
   "bugs": {
     "url": "https://github.com/ScreamingHawk/zomato-scraper/issues"
   },
-  "homepage": "https://github.com/ScreamingHawk/zomato-scraper#readme"
+  "homepage": "https://github.com/ScreamingHawk/zomato-scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "request": "^2.88.0",
+    "winston": "^3.2.1"
+  }
 }

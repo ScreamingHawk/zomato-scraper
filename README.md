@@ -25,7 +25,7 @@ yarn watch
 Run the script without building
 
 ```sh
-yarn run
+yarn execute
 ```
 
 Build the program without running
